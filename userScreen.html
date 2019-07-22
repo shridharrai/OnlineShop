@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="scripts/utils/firebase.js"></script>
+    <script src="scripts/screen/models/product.js"></script>
+    <script src="scripts/screen/models/productOperations.js"></script>
+    <script src="scripts/userScreen.js"></script>
+    <script src="scripts/screen/controllers/screenController.js"></script>
+    <style>
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .size {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <h1 class="alert-success text-center">Online Shop</h1>
+        <button id="cart" class="btn btn-primary" onclick="callCart()">Cart<span id="count"></span></button>
+    </div>
+    <div class="flex size" id="mobiles">
+
+    </div>
+</body>
+
+</html>

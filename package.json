@@ -1,0 +1,18 @@
+{
+  "name": "onlineshop",
+  "version": "1.0.0",
+  "description": "pure java script project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shopping"
+  ],
+  "author": "shridhar rai",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0"
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="scripts/utils/admin.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="scripts/utils/firebase.js"></script>
+    <!-- <script src="scripts/users/crud/controllers/userController.js"></script> -->
+    <script src="scripts/Login.js"></script>
+    <!-- <script src="scripts/Register.js"></script> -->
+</head>
+<body>
+  <div class="container">
+    <h4 class="alert-danger" id="error"></h4>
+    <h1 class="alert-success text-center">Login</h1>
+    <div class="form-group">
+      <label for="">Userid</label>
+      <input class="form-control" id="userid" type="email" placeholder="Enter userid here" autofocus>
+    </div>
+    <div class="form-group">
+      <label for="">Password</label>
+      <input class="form-control" id="password" type="password" placeholder="Enter password here">
+    </div>
+    <div class="form-group">
+      <button class="btn btn-primary" onclick="doLogin()">Login</button>
+      <button class="btn btn-secondary">Reset</button>
+      <button class="btn btn-success" onclick="doRegister()">Register</button>
+    </div>
+  </div>
+</body>
+</html>

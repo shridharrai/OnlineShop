@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="scripts/utils/firebase.js"></script>
+    <script src="scripts/Register.js"></script>
+    <script src="scripts/users/crud/models/user.js"></script>
+    <script src="scripts/users/crud/controllers/userController.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h4 class="alert-danger" id="error"></h4>
+    <h1 class="alert-success text-center">Register</h1>
+    <div class="form-group">
+        <label for="">Name</label>
+        <input class="form-control" id="username" type="text" placeholder="Enter name here">
+    </div>
+    <div>
+      <label for="">Email</label>
+      <input class="form-control" id="email" type="email" placeholder="Enter Email id here">
+    </div>
+    <div class="form-group">
+      <label for="">Password</label>
+      <input class="form-control" id="password" type="password" placeholder="Enter password here">
+    </div>
+    <div class="form-group">
+      <button id="register" class="btn btn-primary">Register</button>
+    </div>
+  </div>
+</body>
+</html>
